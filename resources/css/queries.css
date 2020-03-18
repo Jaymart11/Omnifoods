@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1348px){
+    .container-ready h3,
+    .container-days h3,
+    .container-organic h3,
+    .container-order h3{
+        font-size: 100%;
+    }
+    .container-ready p,
+    .container-days p,
+    .container-organic p,
+    .container-order p{
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+      }
+}
+@media only screen and (max-width: 1176px){
+    nav ul {
+        width: 50%;
+      }
+    .container-get-food h2{
+        font-size: 180%;
+    }
+    .container-ready h3,
+    .container-days h3,
+    .container-organic h3,
+    .container-order h3{
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width: 1059px){
+    .container-get-food h2{
+        font-size: 150%;
+    }
+}
+@media only screen and (max-width: 925px){
+    .container-sub-section{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    .container-ready ,
+    .container-days ,
+    .container-organic,
+    .container-order {
+        width: 80%;
+        height: 15%;
+    }
+    .container-ready ion-icon ,
+    .container-days ion-icon ,
+    .container-organic ion-icon,
+    .container-order ion-icon {
+        font-size: 250%;
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    /* .container-ready h3,
+    .container-days h3,
+    .container-organic h3,
+    .container-order h3{
+
+    } */
+}
+
